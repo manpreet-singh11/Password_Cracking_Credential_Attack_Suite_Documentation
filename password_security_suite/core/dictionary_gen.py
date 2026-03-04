@@ -10,7 +10,7 @@ class DictionaryGenerator:
             'o': ['0'], 's': ['5', '$'], 't': ['7']
         }
         # Absolute Path Setup
-        self.base_dir = r"C:\Users\manpr\OneDrive\Desktop\password_security_suite"
+        self.base_dir = r"C:\Users\Desktop\password_security_suite"
         self.default_path = os.path.join(self.base_dir, "data", "wordlists", "custom_list.txt")
 
     def generate_base_list(self, user_data):
@@ -86,4 +86,5 @@ if __name__ == "__main__":
     final_list = set(mutated).union(set(leet_variants))
     
     # This will now save to your specific Desktop path automatically
+
     gen.save_to_file(final_list)
