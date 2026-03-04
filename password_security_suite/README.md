@@ -110,7 +110,7 @@ password_attack_suite/
 ├── main.py
 └── requirements.txt
 🚀 Installation
-git clone https://github.com/yourusername/password-attack-suite.git
+git clone https://github.com/manpreet-singh11/Password_Cracking_Credential_Attack_Suite_Documentation
 cd password-attack-suite
 python -m venv venv
 venv\Scripts\activate   # Windows
@@ -208,3 +208,4 @@ Advanced entropy modeling
 Account lockout simulation
 
 Integration with SIEM-style logging
+
