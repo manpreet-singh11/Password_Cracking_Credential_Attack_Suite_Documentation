@@ -1,0 +1,27 @@
+======================================================================
+                    PASSWORD SECURITY AUDIT REPORT                    
+                      Date: 2026-02-09 20:13:33                       
+======================================================================
+
+OVERALL RISK LEVEL: High
+Vulnerabilities Found: 1
+Total Analyzed: 1
+
+------------------------- CRACKING STATS -----------------------------
+  Result:         SUCCESS
+  Time Taken:     0.0241 seconds
+  Attempts Made:  92
+  Cracking Speed: 3,817 attempts/second
+----------------------------------------------------------------------
+
+PASSWORD             | STATUS           | SUGGESTED FIX
+----------------------------------------------------------------------
+manpreet             | COMPROMISED      | Manpreet2026!x
+
+======================================================================
+SECURITY RECOMMENDATIONS:
+[*] Implement multi-factor authentication (MFA).
+[*] Use 14+ character passphrases.
+[*] Rotate compromised credentials immediately.
+[*] Enforce account lockout policies.
+======================================================================
