@@ -75,7 +75,7 @@ def main():
                 logger.error("Hash input required.")
                 continue
 
-            wordlist_path = r"C:\Users\manpr\OneDrive\Desktop\password_security_suite\data\wordlists\custom_list.txt"
+            wordlist_path = r"C:\Users\Desktop\password_security_suite\data\wordlists\custom_list.txt"
             
             # Perform the attack
             crack_results = cracker.dictionary_attack(target_hash, wordlist_path, algorithm=algo)
@@ -114,4 +114,5 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         print("\n[!] Emergency Shutdown initiated.")
+
         sys.exit()
