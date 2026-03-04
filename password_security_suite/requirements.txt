@@ -1,0 +1,9 @@
+# Python Standard Libraries used (No pip install required for these):
+# base64
+# argparse
+# random
+# itertools
+# datetime
+
+# External dependencies (if any enhancements are added later):
+# colorama  # Optional: for colored terminal output
